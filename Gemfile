@@ -39,6 +39,10 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry'
+  gem 'rspec-rails'
+  gem 'capybara' #give us a way to use rspec to interact with the web pages the way a user would.
+  gem 'launchy' #save_and_open_page
+  gem 'simplecov'
 end
 
 group :development do
