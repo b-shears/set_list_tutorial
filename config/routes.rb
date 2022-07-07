@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   #get '/songs' is accepting the route or request from the browser, and then what do we do with it?
   #we route it to the songs controller & the index action.
   get '/songs/:id', to: 'songs#show'
+  get '/artists/:artist_id/songs', to: 'artist_songs#index'
+
 end

@@ -43,6 +43,7 @@ group :development, :test do
   gem 'capybara' #give us a way to use rspec to interact with the web pages the way a user would.
   gem 'launchy' #save_and_open_page
   gem 'simplecov'
+  gem 'shoulda-matchers', '~> 4.0'
 end
 
 group :development do
